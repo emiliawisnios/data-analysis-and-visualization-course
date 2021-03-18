@@ -53,7 +53,7 @@ def gather_plot_data(dataframe, number_of_countries=5):
     return plot_data, row_names, years
 
 
-path = 'A.csv'
+path = 'data/A.csv'
 color_set = ['#a6dba0', '#5aae61', '#1b7837', '#00441b', '#40004b', '#762a83', '#9970ab', '#c2a5cf']
 population_data = data_loading_and_parsing(path)
 data, labels_x, years = gather_plot_data(population_data)
