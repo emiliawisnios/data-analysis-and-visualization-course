@@ -67,3 +67,4 @@ def generate_plot(plot_dataframe, labels, year, colors, max_value, plot_title, p
 
     plt.savefig(directory + str(year) + '.png')
     plt.close(fig)
+ 
