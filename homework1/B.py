@@ -41,7 +41,7 @@ def gather_plot_data(dataframe):
     return plot_data, row_names, years, random_country_name, random_year
 
 
-path = 'API_SP.POP.TOTL_DS2_en_csv_v2_2106202.csv'
+path = 'data/population_data.csv'
 population_data = data_loading_and_parsing(path)
 data, labels_x, years, country, year = gather_plot_data(population_data)
 color_set = ['#a6dba0', '#5aae61', '#1b7837', '#00441b', '#40004b', '#762a83', '#9970ab', '#c2a5cf']
